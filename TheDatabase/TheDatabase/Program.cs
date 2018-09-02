@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SQLite;
 
 namespace TheDatabase
 {
@@ -10,7 +11,7 @@ namespace TheDatabase
     {
         static void Main(string[] args)
         {
-            //SQLiteConnection.CreateFile("MyDatabase.sqlite");
+            SQLiteConnection.CreateFile("MyDatabase.sqlite");
         }
     }
 }
