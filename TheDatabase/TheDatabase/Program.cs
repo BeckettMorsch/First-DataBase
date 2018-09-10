@@ -11,7 +11,7 @@ namespace TheDatabase
     {
         static void Main(string[] args)
         {
-            SQLiteConnection.CreateFile("MyDatabase.sqlite");
+            //SQLiteConnection.CreateFile("MyDatabase.sqlite");
         }
     }
 }
